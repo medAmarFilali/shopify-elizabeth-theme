@@ -5,3 +5,7 @@
 .account-links{
     @apply text-base text-gray-500 hover:text-gray-900 cursor-pointer
 }
+
+[x-cloak] {
+    display: none;
+}
