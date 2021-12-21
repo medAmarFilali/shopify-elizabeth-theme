@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.account-links{
+    @apply text-base text-gray-500 hover:text-gray-900 cursor-pointer
+}
