@@ -89,11 +89,13 @@
                         </div>
                     </div>
                 {% elsif form.posted_successfully? %}
-                    Comment is posted successfully
                     <div class="border padding-5">
                         <div class="flex flex-row items-center max-w-4xl px-4">
                             <div class="text-green-600">
                                 {% render 'icon-success' %}
+                            </div>
+                            <div class="text-sm font-medium ml-3">
+                                Comment is posted successfully
                             </div>
                         </div>
                     </div>
